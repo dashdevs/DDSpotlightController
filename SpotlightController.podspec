@@ -26,15 +26,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
   s.source           = { :git => 'https://bitbucket.org/itomych/SpotlightController.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SpotlightController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SpotlightController' => ['SpotlightController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'CoreSpotlight'
 end
