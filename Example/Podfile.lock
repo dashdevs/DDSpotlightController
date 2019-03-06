@@ -1,0 +1,16 @@
+PODS:
+  - SpotlightController (0.1.0)
+
+DEPENDENCIES:
+  - SpotlightController (from `../`)
+
+EXTERNAL SOURCES:
+  SpotlightController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SpotlightController: 7ec6fe02ec862a8da25f72f3e9cabf6ce4c4d2ae
+
+PODFILE CHECKSUM: b6f509dea40d9000e1467107db2edb354f092054
+
+COCOAPODS: 1.5.3

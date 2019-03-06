@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E5D2687796D886E6317F164 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0E5D2687796D886E6317F164 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		39D8659E2543D988A8B3929F /* Pods-SpotlightController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightController_Tests/Pods-SpotlightController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5983E33C4C80C3ABDA93EA6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5983E33C4C80C3ABDA93EA6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SpotlightController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* SpotlightController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotlightController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7842CDE396E5398B59227685 /* SpotlightController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SpotlightController.podspec; path = ../SpotlightController.podspec; sourceTree = "<group>"; };
-		7BE46802B9B152ACC99AB9AE /* TODO.md */ = {isa = PBXFileReference; includeInIndex = 1; name = TODO.md; path = ../TODO.md; sourceTree = "<group>"; };
+		7842CDE396E5398B59227685 /* SpotlightController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpotlightController.podspec; path = ../SpotlightController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BE46802B9B152ACC99AB9AE /* TODO.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = TODO.md; path = ../TODO.md; sourceTree = "<group>"; };
 		A25999E5622BC8AF0CA339B2 /* Pods-SpotlightController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightController_Example/Pods-SpotlightController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B220B208DA4F5106B8B8F0CF /* Pods-SpotlightController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightController_Tests/Pods-SpotlightController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8103AEA083F00237AF37094 /* Pods_SpotlightController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };

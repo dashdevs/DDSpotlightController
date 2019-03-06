@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040030B15028AED8906B09912E22CF03 /* Pods-SpotlightController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF4C19BDCFCC84E00479EFD092EC4E3 /* Pods-SpotlightController_Example-dummy.m */; };
+		31CDA6CA7FABF342D77E4FDE511A7BAA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DD4612C013B8E7384A81CB0E1518C /* ReplaceMe.swift */; };
+		7421AD5C8DF792D28630B105712AE485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		748AFB3340AE710CBFFB9AC1420A5C69 /* Pods-SpotlightController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134EB5C998A37946494F1930DCB6296F /* Pods-SpotlightController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4A8D2B48B19E65D5DC0364EA97B427 /* Pods-SpotlightController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6DFAC5F66062E5DD63BFEE23FA2661 /* Pods-SpotlightController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C567A95C03F9F1431DB494D9440BD710 /* Pods-SpotlightController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 598C4A968179821BA1CD16F0CC1146FD /* Pods-SpotlightController_Tests-dummy.m */; };
+		C87177005FDA3ADCBFAA531D0C437142 /* SpotlightController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 159BBF9A27BA08F8B0DDC4CAD766C010 /* SpotlightController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCF77F5CDD2F7DD962624D053B7AA4C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E5D66C6FEB754AFFA174B78E299A25F9 /* SpotlightController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45874BE21F8CFCC1CA816B27BC48ED98 /* SpotlightController-dummy.m */; };
+		FE6A521D31FB5B310A165CEBE31B4EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D75C6DB19528FD8291BC74E2C6610E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293E509EAB895EBD4E6ADFA100153C16;
+			remoteInfo = "Pods-SpotlightController_Example";
+		};
+		FD20DDA88AC0B7B09E6F9245DE9D0DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B101E5CA9860D91B23288DC778CBCD62;
+			remoteInfo = SpotlightController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0564064B59DCCFF0DDB771C13B0DE0AA /* Pods-SpotlightController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpotlightController_Tests.modulemap"; sourceTree = "<group>"; };
+		07947EF39D0CA131207939D7318FEA5A /* SpotlightController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpotlightController.xcconfig; sourceTree = "<group>"; };
+		0A7571D4E7B20225C0EE68A34ACD9192 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		134EB5C998A37946494F1930DCB6296F /* Pods-SpotlightController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotlightController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		159BBF9A27BA08F8B0DDC4CAD766C010 /* SpotlightController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotlightController-umbrella.h"; sourceTree = "<group>"; };
+		1998FF1AB1A96D2F04401E5A47F76C72 /* Pods-SpotlightController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightController_Tests-resources.sh"; sourceTree = "<group>"; };
+		1AEC30117E898B882E7F77B7EFE952A6 /* Pods-SpotlightController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpotlightController_Example.modulemap"; sourceTree = "<group>"; };
+		281722E1C79094D01F8036B58153DBD7 /* Pods-SpotlightController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightController_Example-resources.sh"; sourceTree = "<group>"; };
+		2DE40F409B6636760D0E00C948EF5964 /* Pods-SpotlightController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		45874BE21F8CFCC1CA816B27BC48ED98 /* SpotlightController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpotlightController-dummy.m"; sourceTree = "<group>"; };
+		475C31AAC98871F8E8E4E84ADB35AFEE /* SpotlightController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpotlightController.modulemap; sourceTree = "<group>"; };
+		481D2743543828C7C03D6ABB0AC2978D /* Pods-SpotlightController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotlightController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		598C4A968179821BA1CD16F0CC1146FD /* Pods-SpotlightController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotlightController_Tests-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AE7F2716561518773971E549C1EE26A /* Pods-SpotlightController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotlightController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6078A1FD1BAA5C121009CD8079FED386 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67256ED92C1BCD64B31AC55A08BABC6A /* Pods-SpotlightController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		70808BA4D5993F9A85FBE681B345EF9C /* Pods-SpotlightController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotlightController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7251421376388B9E6CE31C6042BEB66E /* Pods-SpotlightController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		744AF77B0CCC1139C327D2536B34B2E6 /* Pods-SpotlightController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7818956A5FE77F8D46DC385F6E877C6B /* Pods_SpotlightController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpotlightController_Example.framework; path = "Pods-SpotlightController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8DD4612C013B8E7384A81CB0E1518C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SpotlightController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8D229E09C871A90703DD75F042D12162 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B2A67501F6AD2C72213971468940B5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B5C4C8965EF13B7DBB3887DBA79A5EDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34D9589D114F5738646494D2E64AC2D /* Pods_SpotlightController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpotlightController_Tests.framework; path = "Pods-SpotlightController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF4C19BDCFCC84E00479EFD092EC4E3 /* Pods-SpotlightController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotlightController_Example-dummy.m"; sourceTree = "<group>"; };
+		D86F8C6EA0FE9F2AD94A74A5703D4C58 /* Pods-SpotlightController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotlightController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC9B0E85337BBDF5AD8AE1E8E8FCC110 /* SpotlightController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotlightController-prefix.pch"; sourceTree = "<group>"; };
+		DEBA24164042C83A1711AF717AD97B76 /* Pods-SpotlightController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E80A2B85F4CECABA89D389AC35A35F42 /* Pods-SpotlightController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAB3A7E1C03945CAB29B6A7196E17CB3 /* SpotlightController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpotlightController.framework; path = SpotlightController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2FE926ABC26466BB1B67BE9C883DA1 /* SpotlightController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SpotlightController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD6DFAC5F66062E5DD63BFEE23FA2661 /* Pods-SpotlightController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotlightController_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BA5E572833C996C0F958FC792E0CA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7421AD5C8DF792D28630B105712AE485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3929B545AF34552029A7AC3725146E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF77F5CDD2F7DD962624D053B7AA4C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0A8806BAAB08A4989F13DD7EA429F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6A521D31FB5B310A165CEBE31B4EE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189B92E5CC461FD8D62148B08A954AAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC0727E2D58AEE404814FCBB82E02A /* Pods-SpotlightController_Example */,
+				B11A3F24CC12F52DD41D6EBC7D27962F /* Pods-SpotlightController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A25BCBBEC3656B35571DD56CD1B5D60 /* SpotlightController */ = {
+			isa = PBXGroup;
+			children = (
+				8B8DD4612C013B8E7384A81CB0E1518C /* ReplaceMe.swift */,
+				9E6928F0213501A18F8BA938D6307067 /* Pod */,
+				CA9F16CAFDCC8003B177E8A0809B65F1 /* Support Files */,
+			);
+			name = SpotlightController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C1AE02EA5633854C8D74BDC6963EE7BD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D069781588AEC900811963EA711C9B44 /* Products */,
+				189B92E5CC461FD8D62148B08A954AAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E6928F0213501A18F8BA938D6307067 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0A7571D4E7B20225C0EE68A34ACD9192 /* LICENSE */,
+				9B2A67501F6AD2C72213971468940B5C /* README.md */,
+				ED2FE926ABC26466BB1B67BE9C883DA1 /* SpotlightController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B11A3F24CC12F52DD41D6EBC7D27962F /* Pods-SpotlightController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6078A1FD1BAA5C121009CD8079FED386 /* Info.plist */,
+				0564064B59DCCFF0DDB771C13B0DE0AA /* Pods-SpotlightController_Tests.modulemap */,
+				D86F8C6EA0FE9F2AD94A74A5703D4C58 /* Pods-SpotlightController_Tests-acknowledgements.markdown */,
+				5AE7F2716561518773971E549C1EE26A /* Pods-SpotlightController_Tests-acknowledgements.plist */,
+				598C4A968179821BA1CD16F0CC1146FD /* Pods-SpotlightController_Tests-dummy.m */,
+				67256ED92C1BCD64B31AC55A08BABC6A /* Pods-SpotlightController_Tests-frameworks.sh */,
+				1998FF1AB1A96D2F04401E5A47F76C72 /* Pods-SpotlightController_Tests-resources.sh */,
+				134EB5C998A37946494F1930DCB6296F /* Pods-SpotlightController_Tests-umbrella.h */,
+				744AF77B0CCC1139C327D2536B34B2E6 /* Pods-SpotlightController_Tests.debug.xcconfig */,
+				E80A2B85F4CECABA89D389AC35A35F42 /* Pods-SpotlightController_Tests.release.xcconfig */,
+			);
+			name = "Pods-SpotlightController_Tests";
+			path = "Target Support Files/Pods-SpotlightController_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0FC0727E2D58AEE404814FCBB82E02A /* Pods-SpotlightController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B5C4C8965EF13B7DBB3887DBA79A5EDA /* Info.plist */,
+				1AEC30117E898B882E7F77B7EFE952A6 /* Pods-SpotlightController_Example.modulemap */,
+				481D2743543828C7C03D6ABB0AC2978D /* Pods-SpotlightController_Example-acknowledgements.markdown */,
+				70808BA4D5993F9A85FBE681B345EF9C /* Pods-SpotlightController_Example-acknowledgements.plist */,
+				CFF4C19BDCFCC84E00479EFD092EC4E3 /* Pods-SpotlightController_Example-dummy.m */,
+				DEBA24164042C83A1711AF717AD97B76 /* Pods-SpotlightController_Example-frameworks.sh */,
+				281722E1C79094D01F8036B58153DBD7 /* Pods-SpotlightController_Example-resources.sh */,
+				FD6DFAC5F66062E5DD63BFEE23FA2661 /* Pods-SpotlightController_Example-umbrella.h */,
+				7251421376388B9E6CE31C6042BEB66E /* Pods-SpotlightController_Example.debug.xcconfig */,
+				2DE40F409B6636760D0E00C948EF5964 /* Pods-SpotlightController_Example.release.xcconfig */,
+			);
+			name = "Pods-SpotlightController_Example";
+			path = "Target Support Files/Pods-SpotlightController_Example";
+			sourceTree = "<group>";
+		};
+		C1AE02EA5633854C8D74BDC6963EE7BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A25BCBBEC3656B35571DD56CD1B5D60 /* SpotlightController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CA9F16CAFDCC8003B177E8A0809B65F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D229E09C871A90703DD75F042D12162 /* Info.plist */,
+				475C31AAC98871F8E8E4E84ADB35AFEE /* SpotlightController.modulemap */,
+				07947EF39D0CA131207939D7318FEA5A /* SpotlightController.xcconfig */,
+				45874BE21F8CFCC1CA816B27BC48ED98 /* SpotlightController-dummy.m */,
+				DC9B0E85337BBDF5AD8AE1E8E8FCC110 /* SpotlightController-prefix.pch */,
+				159BBF9A27BA08F8B0DDC4CAD766C010 /* SpotlightController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SpotlightController";
+			sourceTree = "<group>";
+		};
+		D069781588AEC900811963EA711C9B44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7818956A5FE77F8D46DC385F6E877C6B /* Pods_SpotlightController_Example.framework */,
+				C34D9589D114F5738646494D2E64AC2D /* Pods_SpotlightController_Tests.framework */,
+				EAB3A7E1C03945CAB29B6A7196E17CB3 /* SpotlightController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		86FDA026C2AF7C3CE1736C0035509A34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4A8D2B48B19E65D5DC0364EA97B427 /* Pods-SpotlightController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A45E83385001EDA4E2BB3D94CE1E3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87177005FDA3ADCBFAA531D0C437142 /* SpotlightController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC322ACA70AEF2E498F6CAC65F82CAC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748AFB3340AE710CBFFB9AC1420A5C69 /* Pods-SpotlightController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		293E509EAB895EBD4E6ADFA100153C16 /* Pods-SpotlightController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D774735B9F90FE0BA5D6043BE9E50504 /* Build configuration list for PBXNativeTarget "Pods-SpotlightController_Example" */;
+			buildPhases = (
+				C8AE6471FF79F077284C83C6D37B42D9 /* Sources */,
+				1BA5E572833C996C0F958FC792E0CA29 /* Frameworks */,
+				86FDA026C2AF7C3CE1736C0035509A34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE761E901A4CC5BADEAE91D7CD10030D /* PBXTargetDependency */,
+			);
+			name = "Pods-SpotlightController_Example";
+			productName = "Pods-SpotlightController_Example";
+			productReference = 7818956A5FE77F8D46DC385F6E877C6B /* Pods_SpotlightController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49278AF17655DE3AAD48BCBD2FB9C00B /* Pods-SpotlightController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E240C95950D649A2AF4EB9AA267AA1CE /* Build configuration list for PBXNativeTarget "Pods-SpotlightController_Tests" */;
+			buildPhases = (
+				CA51E8A12A9456F4A1B882690D500F8C /* Sources */,
+				B3929B545AF34552029A7AC3725146E5 /* Frameworks */,
+				BC322ACA70AEF2E498F6CAC65F82CAC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942B9B5C26C3F7A201921122FC3B67BB /* PBXTargetDependency */,
+			);
+			name = "Pods-SpotlightController_Tests";
+			productName = "Pods-SpotlightController_Tests";
+			productReference = C34D9589D114F5738646494D2E64AC2D /* Pods_SpotlightController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B101E5CA9860D91B23288DC778CBCD62 /* SpotlightController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA1E76464897C469A35DC42A5BAB615 /* Build configuration list for PBXNativeTarget "SpotlightController" */;
+			buildPhases = (
+				D08E9389089CADF6584CCAC56A2B7BEF /* Sources */,
+				BD0A8806BAAB08A4989F13DD7EA429F3 /* Frameworks */,
+				B9A45E83385001EDA4E2BB3D94CE1E3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotlightController;
+			productName = SpotlightController;
+			productReference = EAB3A7E1C03945CAB29B6A7196E17CB3 /* SpotlightController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D069781588AEC900811963EA711C9B44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293E509EAB895EBD4E6ADFA100153C16 /* Pods-SpotlightController_Example */,
+				49278AF17655DE3AAD48BCBD2FB9C00B /* Pods-SpotlightController_Tests */,
+				B101E5CA9860D91B23288DC778CBCD62 /* SpotlightController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8AE6471FF79F077284C83C6D37B42D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040030B15028AED8906B09912E22CF03 /* Pods-SpotlightController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA51E8A12A9456F4A1B882690D500F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567A95C03F9F1431DB494D9440BD710 /* Pods-SpotlightController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08E9389089CADF6584CCAC56A2B7BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CDA6CA7FABF342D77E4FDE511A7BAA /* ReplaceMe.swift in Sources */,
+				E5D66C6FEB754AFFA174B78E299A25F9 /* SpotlightController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942B9B5C26C3F7A201921122FC3B67BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SpotlightController_Example";
+			target = 293E509EAB895EBD4E6ADFA100153C16 /* Pods-SpotlightController_Example */;
+			targetProxy = D75C6DB19528FD8291BC74E2C6610E33 /* PBXContainerItemProxy */;
+		};
+		AE761E901A4CC5BADEAE91D7CD10030D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpotlightController;
+			target = B101E5CA9860D91B23288DC778CBCD62 /* SpotlightController */;
+			targetProxy = FD20DDA88AC0B7B09E6F9245DE9D0DBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		171A5D8709DB08C79819218BCE90B257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744AF77B0CCC1139C327D2536B34B2E6 /* Pods-SpotlightController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightController_Tests/Pods-SpotlightController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		960CD05815C79E4D8D718F93A19BF37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07947EF39D0CA131207939D7318FEA5A /* SpotlightController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotlightController/SpotlightController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotlightController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpotlightController/SpotlightController.modulemap";
+				PRODUCT_MODULE_NAME = SpotlightController;
+				PRODUCT_NAME = SpotlightController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC6FA1B54400805EF36D11DA8575AB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7251421376388B9E6CE31C6042BEB66E /* Pods-SpotlightController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightController_Example/Pods-SpotlightController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD09FE09CD1B788E6F825FA0F5E3FA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE40F409B6636760D0E00C948EF5964 /* Pods-SpotlightController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightController_Example/Pods-SpotlightController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8628E98C53F3E0BC3E419218D4C6DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07947EF39D0CA131207939D7318FEA5A /* SpotlightController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotlightController/SpotlightController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotlightController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpotlightController/SpotlightController.modulemap";
+				PRODUCT_MODULE_NAME = SpotlightController;
+				PRODUCT_NAME = SpotlightController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9AE1B60746EF000A5A08A422C2EE9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80A2B85F4CECABA89D389AC35A35F42 /* Pods-SpotlightController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightController_Tests/Pods-SpotlightController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA1E76464897C469A35DC42A5BAB615 /* Build configuration list for PBXNativeTarget "SpotlightController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960CD05815C79E4D8D718F93A19BF37B /* Debug */,
+				C8628E98C53F3E0BC3E419218D4C6DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D774735B9F90FE0BA5D6043BE9E50504 /* Build configuration list for PBXNativeTarget "Pods-SpotlightController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6FA1B54400805EF36D11DA8575AB6B /* Debug */,
+				BD09FE09CD1B788E6F825FA0F5E3FA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E240C95950D649A2AF4EB9AA267AA1CE /* Build configuration list for PBXNativeTarget "Pods-SpotlightController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171A5D8709DB08C79819218BCE90B257 /* Debug */,
+				D9AE1B60746EF000A5A08A422C2EE9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

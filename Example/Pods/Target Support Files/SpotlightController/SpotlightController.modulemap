@@ -1,0 +1,6 @@
+framework module SpotlightController {
+  umbrella header "SpotlightController-umbrella.h"
+
+  export *
+  module * { export * }
+}
