@@ -6,15 +6,19 @@
 //
 
 import UIKit
+import SpotlightController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    var spotlight: SpotlightController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        spotlight = SpotlightController("indexName")
+        
         return true
     }
 
