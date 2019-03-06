@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SpotlightController_Example' do
+  pod 'SpotlightController', :path => '../'
+
+  target 'SpotlightController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
