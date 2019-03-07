@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		49919DA333B9BC298B27C1F5 /* Pods_SpotlightController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8103AEA083F00237AF37094 /* Pods_SpotlightController_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		E140712EA012D940F71A1FFA /* Pods_SpotlightController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C58ED23F7C129DE9F022E6 /* Pods_SpotlightController_Tests.framework */; };
+		E81F64372231885D007834FF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F64362231885D007834FF /* DetailViewController.swift */; };
+		E81F643922318886007834FF /* ModelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F643822318886007834FF /* ModelsTableViewController.swift */; };
+		E81F643B22318AAE007834FF /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F643A22318AAE007834FF /* Environment.swift */; };
 		E83D280022303C07007BC45D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D27FF22303C07007BC45D /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +37,6 @@
 		607FACD01AFB9204008FA782 /* SpotlightController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		B8103AEA083F00237AF37094 /* Pods_SpotlightController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C58ED23F7C129DE9F022E6 /* Pods_SpotlightController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C3B617A828FAFD0F2F0706 /* Pods-SpotlightController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightController_Example/Pods-SpotlightController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E81F64362231885D007834FF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E81F643822318886007834FF /* ModelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTableViewController.swift; sourceTree = "<group>"; };
+		E81F643A22318AAE007834FF /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		E83D27FF22303C07007BC45D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,13 +111,15 @@
 		607FACD21AFB9204008FA782 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				E81F64362231885D007834FF /* DetailViewController.swift */,
+				E81F643822318886007834FF /* ModelsTableViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				E83D27FF22303C07007BC45D /* Model.swift */,
+				E81F643A22318AAE007834FF /* Environment.swift */,
 			);
 			name = Example;
 			path = SpotlightController;
@@ -217,10 +223,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J4BH25WEZ3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J4BH25WEZ3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -328,8 +336,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E83D280022303C07007BC45D /* Model.swift in Sources */,
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				E81F643922318886007834FF /* ModelsTableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E81F64372231885D007834FF /* DetailViewController.swift in Sources */,
+				E81F643B22318AAE007834FF /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +489,7 @@
 			baseConfigurationReference = A25999E5622BC8AF0CA339B2 /* Pods-SpotlightController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4BH25WEZ3;
 				INFOPLIST_FILE = SpotlightController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -494,6 +505,7 @@
 			baseConfigurationReference = E5C3B617A828FAFD0F2F0706 /* Pods-SpotlightController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4BH25WEZ3;
 				INFOPLIST_FILE = SpotlightController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -508,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B220B208DA4F5106B8B8F0CF /* Pods-SpotlightController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = J4BH25WEZ3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -530,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39D8659E2543D988A8B3929F /* Pods-SpotlightController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = J4BH25WEZ3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
