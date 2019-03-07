@@ -2,26 +2,38 @@
 //  Model.swift
 //  SpotlightController_Example
 //
-//  Copyright © 2019 CocoaPods. All rights reserved.
+//  Copyright (c) 2019 dashdevs.com. All rights reserved.
 //
 
 import SpotlightController
 import CoreSpotlight
+import MobileCoreServices
 
 struct AppModel {
     var title: String
     var content: String
+    var number: Int
 }
 
 extension AppModel: SearchableItem {
-    var spotlightItem: CSSearchableItem {
-        let set = CSSearchableItemAttributeSet(itemContentType: <#T##String#>)
-        return CSSearchableItem(uniqueIdentifier: <#T##String?#>, domainIdentifier: <#T##String?#>, attributeSet: <#T##CSSearchableItemAttributeSet#>)
+    var attributeSet: CSSearchableItemAttributeSet {
+        let attributeSet = CSSearchableItemAttributeSet(itemContentType: kUTTypeText as String)
+        attributeSet.keywords = ["model", "application", "search"]
+        attributeSet.displayName = "Plain search Model" + title
+        attributeSet.title = title
+        attributeSet.contentDescription = content
+        return attributeSet
     }
-
-    var identifier: String {
-        <#code#>
+    
+    var uniqueIdentifier: String {
+        return String(number)
     }
+}
 
-
+extension Array where Element == AppModel {
+    static func mocks(_ count: Int) -> Array {
+        return (1...count).map({ idx in
+            return AppModel(title: "title \(idx)", content: "content content content \(idx)", number: idx)
+        })
+    }
 }
