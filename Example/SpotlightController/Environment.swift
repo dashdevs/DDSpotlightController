@@ -10,5 +10,3 @@ import Foundation
 struct Environment {
     var models: [AppModel] = .mocks(15)
 }
-
-var Current = Environment()

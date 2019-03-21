@@ -15,11 +15,10 @@ public final class SpotlightController: NSObject {
     ///
     /// - Parameter indexName: Name for the index instance
     public init?(_ indexName: String) {
-        if CSSearchableIndex.isIndexingAvailable() {
-            self.index = CSSearchableIndex(name: indexName)
-        } else {
+        guard CSSearchableIndex.isIndexingAvailable() else {
             return nil
         }
+        self.index = CSSearchableIndex(name: indexName)
     }
     
     /// Adds array of instances that conform to SearchableItem to index
@@ -77,9 +76,7 @@ public extension SearchableItem {
 // MARK: - Convenience NSUserActivity extension to get searched item identifier when coming from on-device search
 public extension NSUserActivity {
     var searchItemIdentifier: String? {
-        if activityType == CSSearchableItemActionType, let info = userInfo {
-            return info[CSSearchableItemActivityIdentifier] as? String
-        }
-        return nil
+        guard let info = userInfo, activityType == CSSearchableItemActionType  else { return nil }
+        return info[CSSearchableItemActivityIdentifier] as? String
     }
 }

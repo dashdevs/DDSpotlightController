@@ -9,6 +9,8 @@ import UIKit
 import SpotlightController
 import CoreSpotlight
 
+var Current = Environment()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var spotlight: SpotlightController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as! String
+        let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? "ExampleApp"
         spotlight = SpotlightController(name)
         return true
     }
