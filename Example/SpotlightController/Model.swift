@@ -15,10 +15,16 @@ struct AppModel {
     var number: Int
 }
 
+enum Keywords: String, CaseIterable {
+    case model
+    case application
+    case search
+}
+
 extension AppModel: SearchableItem {
     var attributeSet: CSSearchableItemAttributeSet {
         let attributeSet = CSSearchableItemAttributeSet(itemContentType: kUTTypeText as String)
-        attributeSet.keywords = ["model", "application", "search"]
+        attributeSet.keywords = Keywords.allCases.map({ $0.rawValue })
         attributeSet.displayName = "Plain search Model" + title
         attributeSet.title = title
         attributeSet.contentDescription = content

@@ -11,6 +11,20 @@ import CoreSpotlight
 
 var Current = Environment()
 
+extension UIStoryboard {
+    enum Constants {
+        static let main = "Main"
+        static let detail = "Detali"
+    }
+    static func mainStory() -> UIStoryboard {
+        return UIStoryboard(name: Constants.main, bundle: nil)
+    }
+    
+    func detailScreen() -> DetailViewController? {
+        return instantiateViewController(withIdentifier: Constants.detail) as? DetailViewController
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -26,11 +40,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
         if let identifier = userActivity.searchItemIdentifier {
-            let model = Current.models.first(where: { $0.uniqueIdentifier == identifier })
-            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Detail") as! DetailViewController
-            vc.model = model
-            router.popToRootViewController(animated: false)
-            router.show(vc, sender: nil)
+            if let vc = UIStoryboard.mainStory().detailScreen() {
+                let model = Current.models.first(where: { $0.uniqueIdentifier == identifier })
+                vc.model = model
+                router.popToRootViewController(animated: false)
+                router.show(vc, sender: nil)
+            }
         }
         return true
     }

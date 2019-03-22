@@ -34,13 +34,15 @@ class ModelsTableViewController: UITableViewController {
             let model = models[idx.row]
             vc.model = model
             
-            let app = UIApplication.shared.delegate as! AppDelegate
-            app.spotlight?.index([model])
+            if let app = UIApplication.shared.delegate as? AppDelegate {
+                app.spotlight?.index([model])
+            }
         }
     }
     
     @IBAction func clearIndexAction(_ sender: UIBarButtonItem) {
-        let app = UIApplication.shared.delegate as! AppDelegate
-        app.spotlight?.deindexAll()
+        if let app = UIApplication.shared.delegate as? AppDelegate {
+            app.spotlight?.deindexAll()
+        }
     }
 }
