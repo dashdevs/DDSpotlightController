@@ -14,7 +14,7 @@ var Current = Environment()
 extension UIStoryboard {
     enum Constants {
         static let main = "Main"
-        static let detail = "Detali"
+        static let detail = "Detail"
     }
     static func mainStory() -> UIStoryboard {
         return UIStoryboard(name: Constants.main, bundle: nil)
