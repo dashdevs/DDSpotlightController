@@ -32,13 +32,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var spotlight: SpotlightController?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? "ExampleApp"
         spotlight = SpotlightController(name)
         return true
     }
 
-    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
         if let identifier = userActivity.searchItemIdentifier {
             if let vc = UIStoryboard.mainStory().detailScreen() {
                 let model = Current.models.first(where: { $0.uniqueIdentifier == identifier })
