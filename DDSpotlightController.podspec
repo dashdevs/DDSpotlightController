@@ -7,14 +7,14 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SpotlightController'
+  s.name             = 'DDSpotlightController'
   s.version          = '0.0.1'
   s.summary          = 'SpotlightController wraps CoreSpotlight functionality for easy integration'
 
   s.homepage         = 'https://dashdevs.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
-  s.source           = { :git => 'https://bitbucket.org/itomych/SpotlightController.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/dashdevs/DDSpotlightController.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
 
